@@ -1,0 +1,15 @@
+class alumno:
+    def inicializar(self):
+      self.nombre=input("ingrese nombre      del alumno: ")
+      self.nota=int(input("ingrese la nota       del alumno: "))
+  
+    def leer_notas(self):
+      if self.nota >=3:
+        print("que tula tenes vos.")
+      else:
+        print("que mediocre")
+
+      
+alumno1=alumno()
+alumno1.inicializar()
+alumno1.leer_notas()
