@@ -1,0 +1,28 @@
+class alumno:
+
+    def __init__(self):
+        self.num1=int(input("ingrese un numero: "))
+        self.num2=int(input("ingrese un segundo numero: "))
+
+    def suma(self):
+        suma=self.num1+self.num2
+        print(suma)
+
+    def resta(self):
+        resta=self.num1-self.num2
+        print(resta)
+
+    def multi(self):
+        multi=self.num1*self.num2
+        print(multi)
+
+    def division(self):
+        divi=self.num1/self.num2
+        print(divi)
+
+      
+alumno1 = alumno()
+alumno1.suma()
+alumno1.resta()
+alumno1.multi()
+alumno1.division()
